@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="403dp"
+        android:layout_height="143dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605">
+
+        <ImageView
+            android:id="@+id/kadhaipaneerimg"
+            android:layout_width="119dp"
+            android:layout_height="113dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/paneer2"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/kadhaipaneer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kadhai paneer"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_description3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item Description"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/item_price3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rs.320"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/add_to_cart_button3"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittxt"
+                android:text="Add to Cart"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="403dp"
+        android:layout_height="143dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319">
+
+        <ImageView
+            android:id="@+id/paneer_butter_masalaimg"
+            android:layout_width="119dp"
+            android:layout_height="113dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/paneer_butter_masala"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="paneer butter masala"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_description2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item Description"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/item_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rs.300"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/add_to_cart_button"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittxt"
+                android:text="Add to Cart"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="403dp"
+        android:layout_height="143dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892">
+
+        <ImageView
+            android:id="@+id/biryaniimg"
+            android:layout_width="119dp"
+            android:layout_height="113dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/biryani"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Biryani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biryani"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_description4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item Description"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/item_price4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rs.200"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/add_to_cart_button4"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittxt"
+                android:text="Add to Cart"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="403dp"
+        android:layout_height="143dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045">
+
+        <ImageView
+            android:id="@+id/naan"
+            android:layout_width="119dp"
+            android:layout_height="113dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/naan"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Butternaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Butter naan"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item Description"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/item_price1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rs.100"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/add_to_cart_button1"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edittxt"
+                android:text="Add to Cart"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

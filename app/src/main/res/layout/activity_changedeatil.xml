@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/white"
+    android:padding="150dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="4dp"
+    app:cardMaxElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/FoodImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="20dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/naan" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/FoodName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="AMAN FOOD CENTER"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/FoodPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹100"
+                android:textColor="#ff0000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/HotelLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="North India Cuisine"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details To Change"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/UserName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Price Change"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/UserPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter The Description"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+
+
+
+        <Button
+            android:id="@+id/CompleteOrderBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Details"
+            android:background="@drawable/rounded_edittxt"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
